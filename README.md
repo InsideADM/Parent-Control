@@ -1,7 +1,7 @@
 # ParentControl v2.2
 
 <p align="center">
-  <img src="icon.png" width="150" height="150" style="border-radius: 20px;" alt="Icon" />
+  <img src="icon.png" width="150" height="150" style="border-radius: 30px;" alt="Icon" />
 </p>
 
 **ParentControl** is a premium Android monitoring and remote control solution.  
@@ -13,73 +13,24 @@ Manage any Android device via two powerful interfaces:
 
 ## 🔥 Features at a Glance
 
-### 📱 Control Interfaces
+We offer a comprehensive set of monitoring and control features. Here’s a quick overview:
 
-| Interface | Purpose | Access |
-| :--- | :--- | :--- |
-| **Telegram Bot** | Send commands, receive alerts, quick actions | Master + Admins |
-| **Web Control Panel** | Dashboard, logs, history, and analytics | Master + Admins + Licensed Users |
+| Category | What You Can Do |
+| :--- | :--- |
+| **Device Info** | Check online status, full device state, battery, GPS location, and device owner status. |
+| **Surveillance** | Take screenshots, record audio, capture photos/videos from front and back cameras, and set auto‑screenshot intervals. |
+| **Communications** | Read SMS, view call history, export contacts, and monitor clipboard in real‑time. |
+| **App Control** | List installed apps, track usage, block/unblock apps, and toggle blocking on/off. |
+| **Security** | Lock/unlock device, set/remove PIN, schedule bedtime locks, and force unlock (master only). |
+| **Monitoring** | Start/stop keylogger and send captured keystrokes. |
+| **Admin** | Add/remove admins, list admins, clear histories, and set developer number. |
+| **Info** | About the developer, GitHub, and community links. |
 
----
-
-### 🤖 Telegram Commands
-
-<div style="overflow-x:auto;">
-
-| Category | Command | Description |
-| :--- | :--- | :--- |
-| **Device Info** | `/ping` | Check if device is online |
-| | `/status` | Full device state (battery, network, services) |
-| | `/battery` | Detailed battery metrics |
-| | `/location` | GPS location with Google Maps link |
-| | `/isowner` | Check if app is device owner |
-| | `/batteryalert on/off` | Toggle low‑battery alerts |
-| **Surveillance** | `/screenshot` | Take a screenshot |
-| | `/autoss [minutes]` | Auto‑screenshot every N minutes |
-| | `/autossoff` | Stop auto‑screenshot |
-| | `/record [seconds]` | Record audio for N seconds |
-| | `/backcam` | Take photo with back camera |
-| | `/frontcam` | Take selfie with front camera |
-| | `/backrec [seconds]` | Record video with back camera |
-| | `/selfierec [seconds]` | Record video with front camera |
-| **Communications** | `/sms` | Read SMS (incoming/outgoing) |
-| | `/calls` | Call history (all types) |
-| | `/contacts` | Export all contacts |
-| | `/clipboard` | Get current clipboard content |
-| | `/clipon` | Monitor clipboard in real‑time |
-| | `/clipoff` | Disable clipboard monitor |
-| **App Control** | `/apps` | List installed apps |
-| | `/usage` | App usage today / this week |
-| | `/block [package]` | Block a specific app |
-| | `/unblock [package]` | Unblock an app |
-| | `/blocklist` | Show blocked apps list |
-| | `/blockingon` | Enable app blocking |
-| | `/blockingoff` | Disable app blocking |
-| **Security** | `/lock` | Lock device with overlay (PIN) |
-| | `/unlock` | Remove lockscreen overlay |
-| | `/forceunlock` | Bypass password (master only) |
-| | `/setpin [pin]` | Change device PIN |
-| | `/wipepin` | Remove PIN (device owner required) |
-| | `/bedtime HH:MM` | Schedule bedtime lock |
-| | `/bedtimeoff` | Cancel bedtime lock |
-| **Monitoring** | `/keylon` | Start keylogger |
-| | `/keyoff` | Stop keylogger |
-| | `/keyflush` | Send captured keystrokes |
-| **Admin** | `/addadmin [user_id]` | Add Telegram admin |
-| | `/removeadmin [user_id]` | Remove admin |
-| | `/admins` | List all admins |
-| | `/clearhistory` | Clear chat history |
-| | `/clearadmins` | Clear admin history (master only) |
-| | `/setdevnumber [number]` | Set developer contact number |
-| **Info** | `/about` | About the developer |
-| | `/github` | GitHub repository link |
-| | `/community` | Community support group |
-
-</div>
+> A detailed command list is provided to all licensed users – both in the Telegram bot (via `/help`) and in the web control panel.
 
 ---
 
-### 🖥️ Web Control Panel (Included)
+## 🖥️ Web Control Panel (Included)
 
 All paying customers get access to a **dedicated web dashboard** that provides:
 
