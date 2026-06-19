@@ -1,7 +1,7 @@
-# ParentControl v2.2
+# Parent Control
 
 <p align="center">
-  <img src="icon.png" width="150" height="150" style="border-radius: 20px;" alt="Icon" />
+  <img src="icon.png" width="150" height="150" style="border-radius: 50%;" alt="Icon" />
 </p>
 
 **ParentControl** is a premium Android monitoring and remote control solution.
