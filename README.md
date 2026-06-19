@@ -1,404 +1,342 @@
-# 🔐 ParentControl v2.2
+# ParentControl v2.2
 
-> **Real-Time Device Monitoring Made Simple**
+**Real-Time Device Monitoring and Management Solution**
 
-<div align="center">
+[![Version](https://img.shields.io/badge/Version-2.2-blue)](https://github.com/InsideADM/Parent-Control/)
+[![Android](https://img.shields.io/badge/Android-9.0%2B-green)](https://github.com/InsideADM/Parent-Control/)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE.md)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/InsideADM/Parent-Control/)
 
-![ParentControl](https://img.shields.io/badge/Version-2.2-FF6B35?style=for-the-badge)
-![Android](https://img.shields.io/badge/Android-9.0+-4CAF50?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-00BCD4?style=for-the-badge)
-
-<img src="icon.png" width="200" height="200" style="border-radius: 25px; margin: 20px 0;" alt="ParentControl Icon" />
-
-**Control Any Android Device From Anywhere, Right From Your Phone** 📱
-
-[🚀 Get Started](#-quick-start) • [💰 Pricing](#-pricing) • [📞 Contact](#-contact) • [❓ FAQ](#-faq)
-
-</div>
-
----
-
-## 🎯 Why ParentControl?
-
-Keeping an eye on what matters doesn't have to be complicated. Whether you're a parent concerned about your kid's screen time, a business owner managing company devices, or someone trying to recover a stolen phone—**ParentControl makes it effortless.**
-
-### The Problem
-- 😟 Can't monitor what's happening on devices you're responsible for
-- ⏰ No real-time alerts or activity logs
-- 🔒 No way to secure a device remotely
-- 💔 Missing important SMS, calls, or location data
-
-### The Solution
-**ParentControl.** One app. Two interfaces. Complete control.
+**Table of Contents**
+- [Overview](#overview)
+- [Core Capabilities](#core-capabilities)
+- [Control Interfaces](#control-interfaces)
+- [System Requirements](#system-requirements)
+- [Licensing](#licensing-and-pricing)
+- [Installation](#installation-and-setup)
+- [Features](#features-by-version)
+- [Security](#security-and-privacy)
+- [Legal](#legal-compliance)
+- [Support](#support-and-service)
+- [Purchase](#purchase-and-licensing)
+- [Contact](#contact-information)
 
 ---
 
-## ✨ Features at a Glance
+## Overview
 
-<table>
-  <tr>
-    <td align="center"><strong>📸 Surveillance</strong><br><br>Screenshots, photos, videos, audio recordings</td>
-    <td align="center"><strong>📍 Location</strong><br><br>Real-time GPS + location history</td>
-    <td align="center"><strong>🔔 Alerts</strong><br><br>Battery, network, app installs</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>📱 Communications</strong><br><br>SMS, calls, contacts, clipboard</td>
-    <td align="center"><strong>⏱️ Usage Tracking</strong><br><br>App usage time, activity logs</td>
-    <td align="center"><strong>🚫 App Control</strong><br><br>Block/unblock apps remotely</td>
-  </tr>
-  <tr>
-    <td align="center"><strong>⌨️ Keylogger</strong><br><br>Capture everything typed</td>
-    <td align="center"><strong>🔐 Device Lock</strong><br><br>PIN, overlay, bedtime lock</td>
-    <td align="center"><strong>🤖 Smart Scheduler</strong><br><br>Auto lock at specific times</td>
-  </tr>
-</table>
+ParentControl is a professional device monitoring and management platform designed for parents, organizations, and authorized personnel who need to oversee Android devices. The solution provides comprehensive real-time visibility through two integrated control interfaces: a Telegram-based command system and a web-based management dashboard.
+
+Whether you are a parent monitoring your child's device, an organization managing employee devices, or an IT administrator overseeing multiple devices, ParentControl delivers the monitoring capabilities you need with a straightforward, non-intrusive architecture.
 
 ---
 
-## 🎬 How It Works (In 60 Seconds)
+## Core Capabilities
+
+### Device Status and Intelligence
+
+- Real-time battery level, network connectivity, and storage information
+- GPS location tracking with historical location data
+- Device application inventory and system information
+- Automated alerts for critical device events
+
+### Surveillance and Recording
+
+- Screenshot capture with configurable frequency
+- Front and rear camera photo and video capture
+- Ambient audio recording (up to 120 seconds)
+- Continuous keystroke monitoring across all applications
+
+### Communications Monitoring
+
+- Incoming and outgoing SMS message review
+- Call history and log analysis with timestamps
+- Contact list export and management
+- Clipboard content monitoring in real-time
+
+### Application Management
+
+- Application usage tracking and time-spent analytics
+- App installation and uninstallation monitoring
+- Selective application blocking with whitelist/blacklist control
+- Global block management override functionality
+
+### Security and Device Control
+
+- Remote device locking with PIN authentication
+- PIN creation, modification, and enforcement
+- Emergency force unlock capability
+- Scheduled automatic locking (bedtime mode, study hours)
+- Device Owner mode for maximum control
+
+### Administrative Features
+
+- Multi-administrator support (up to 10 authorized users)
+- Command audit logging with timestamps
+- Emergency contact number configuration
+- Session management and security controls
+
+---
+
+## Control Interfaces
+
+### Command-Line Interface (Telegram Bot)
+
+The Telegram bot provides a lightweight, always-available command interface for remote device management:
 
 ```
-1️⃣ INSTALL      Install APK on target device (once)
-                ↓
-2️⃣ AUTHORIZE    Grant Accessibility + Device Admin permissions
-                ↓
-3️⃣ COMMAND      Send commands via Telegram bot OR web dashboard
-                ↓
-4️⃣ MONITOR      View live data, logs, screenshots, videos
-                ↓
-5️⃣ RESPOND      Lock device, change PIN, block apps, set schedules
+/status              Display device metrics and connectivity
+/screenshot          Capture current device screen
+/backcam             Obtain rear camera photograph
+/record [duration]   Record ambient audio
+/location            Retrieve current GPS coordinates
+/lock                Initiate remote device lock
+/setpin [PIN]        Configure device unlock PIN
+/block [package]     Block specified application
+/unblock [package]   Remove application block
+/help                Display available commands
 ```
 
-**That's it. It takes 5 minutes to set up.** ⚡
+**Advantages:**
+- Accessible from any device with Telegram installed
+- Commands queue during connectivity gaps
+- Instant push notifications for critical alerts
+- No additional software installation required
+
+### Web Management Dashboard
+
+A comprehensive browser-based control panel for detailed monitoring and analysis:
+
+- Device status overview with real-time metrics
+- Screenshot gallery with chronological organization
+- Complete activity timeline with action timestamps
+- SMS, call, and contact data export functionality
+- Usage analytics with visual charts and breakdowns
+- Command execution history with status tracking
+- Administrative settings and user management
+
+**Advantages:**
+- Detailed data visualization and reporting
+- Multi-device management from single interface
+- No client-side installation necessary
+- Responsive design for desktop and mobile browsers
+- Comprehensive data export capabilities
 
 ---
 
-## 📋 Complete Feature List
+## System Requirements
 
-### 🔍 Device Monitoring
-- ✅ **Real-time Status** – Battery, WiFi, internet, location, app list
-- ✅ **Screenshots** – Single shot or auto-capture every N minutes
-- ✅ **Camera Access** – Photos + videos from front & back cameras
-- ✅ **Audio Recording** – Ambient recording up to 2 minutes
-- ✅ **GPS Tracking** – Live location + history map
-
-### 💬 Communications
-- ✅ **SMS Reader** – Incoming, outgoing, latest messages
-- ✅ **Call Logs** – Incoming, outgoing, missed calls with timestamps
-- ✅ **Contacts** – Export all contacts as a file
-- ✅ **Clipboard Monitor** – See everything copied/pasted in real-time
-
-### 📊 Usage & App Control
-- ✅ **App Usage Tracker** – See which apps are used most + daily breakdown
-- ✅ **Installed Apps** – List of all apps with option to view details
-- ✅ **App Blocking** – Block any app instantly + see block list
-- ✅ **Block Management** – Enable/disable blocking globally
-
-### 🔐 Security & Device Control
-- ✅ **Device Lock** – Lock with overlay + password protection
-- ✅ **PIN Management** – Set, change, or remove device PIN
-- ✅ **Force Unlock** – Bypass lockscreen in emergency
-- ✅ **Bedtime Scheduler** – Auto-lock at specific times (e.g., 10 PM)
-- ✅ **Device Admin** – Full control when registered as Device Owner
-
-### ⌨️ Monitoring & Logging
-- ✅ **Keylogger** – Capture keystrokes from all apps
-- ✅ **Activity Feed** – Timestamps for all actions (app opens, blocks, etc.)
-- ✅ **History Logs** – Full command history with dates & times
-
-### 🛠️ Admin Features
-- ✅ **Multi-Admin Support** – Add up to 10 trusted Telegram users
-- ✅ **Developer Contact** – Set parent/owner number for emergencies
-- ✅ **Chat Management** – Clear bot history for privacy
-- ✅ **Device Switching** – Manage multiple devices from one bot
+| Requirement | Specification |
+|-------------|---|
+| Target Device | Android 9.0 or later |
+| Control Devices | Any device with Telegram or web browser |
+| Network | Internet connectivity (WiFi or cellular) |
+| Permissions | Accessibility Service, Device Administration |
 
 ---
 
-## 🎮 Control Interfaces
+## Licensing and Pricing
 
-### 🤖 Telegram Bot (Anywhere, Anytime)
-Send commands directly from Telegram. Get instant responses.
+ParentControl is a licensed software product. Each license covers installation on a specified number of devices.
 
-```
-/status          → Device battery, network, location
-/screenshot      → Take a screenshot right now
-/backcam         → Photo from back camera
-/record 30       → Record 30 seconds of audio
-/block com.app   → Block an app
-/location        → Get exact GPS coordinates
-/lock            → Lock the device immediately
-/setpin 1234     → Change device PIN
-/help            → List all commands
-```
+### License Options
 
-✅ **Works offline** – Commands queue until device connects  
-✅ **Instant alerts** – Get notified of important events  
-✅ **Simple syntax** – No technical knowledge needed  
+| License Type | Price | Devices | Support | Usage |
+|---|---|---|---|---|
+| **Single Device** | $49 USD | 1 | 12 months | Lifetime |
+| **Family Pack** | $199 USD | Up to 5 | 12 months | Lifetime |
+| **Enterprise** | Custom | 10+ | Custom | Lifetime |
+| **Source Code** | Custom | Unlimited | Custom | Unlimited |
 
-### 🖥️ Web Dashboard (Desktop or Mobile Browser)
-See everything in one beautiful dashboard.
+**Inclusions:**
+- Full-featured APK installation
+- Telegram bot setup and configuration
+- Web dashboard access
+- Technical support during support period
+- Lifetime software updates
 
-```
-📊 Dashboard View
-├── Device Status Panel (battery, network, location, storage)
-├── Screenshot Gallery (recent + historical)
-├── Activity Timeline (all actions with timestamps)
-├── SMS/Calls/Contacts (exportable)
-├── Usage Analytics (pie charts, graphs)
-├── Command History (with status)
-└── Settings (admin users, developer number)
-```
-
-✅ **Real-time updates** – See data as it arrives  
-✅ **Export reports** – Download SMS, calls, contacts, logs  
-✅ **Mobile-friendly** – Works on any browser  
-✅ **No setup** – We host it, you just login  
+All licenses include one year of complimentary technical support and software updates.
 
 ---
 
-## 💰 Pricing
+## Installation and Setup
 
-Choose the plan that fits your needs:
+Installation requires four essential steps:
 
-| 🎁 | **Starter** | **Family** | **Enterprise** |
-|:---:|:---|:---|:---|
-| **Devices** | 1 Device | 5 Devices | 10+ Devices |
-| **Price** | **$49** | **$199** | **Contact Us** |
-| **Duration** | One-Time | One-Time | Custom |
-| **Support** | 1 Year Free | 1 Year Free | 3 Years Included |
-| **Updates** | ✅ Lifetime | ✅ Lifetime | ✅ Lifetime |
-| **Best For** | Parents | Families | Businesses |
+1. **APK Installation** - Install the provided signed APK on target device
+2. **Permission Configuration** - Grant Accessibility Service and Device Admin permissions
+3. **Bot Configuration** - Connect target device to pre-configured Telegram bot
+4. **Dashboard Access** - Log in to web dashboard with provided credentials
 
-### What's Included?
-✅ Full APK with all features  
-✅ Telegram bot setup guide  
-✅ Web dashboard access  
-✅ Email support  
-✅ Free updates forever  
-
-> **No hidden fees. No subscriptions. No sneaky charges.** Pay once, use forever. 🎉
+Complete setup typically requires 5-10 minutes per device. Detailed setup documentation is provided to licensed customers.
 
 ---
 
-## 🚀 Quick Start
+## Features by Version
 
-### For Parents
-1. Buy a license (1-5 devices)
-2. We send you the APK + setup guide
-3. Install on your kid's device
-4. Grant permissions (2 minutes)
-5. Send commands via Telegram
-6. Monitor from your phone or web dashboard
+### Version 2.2 (Current)
 
-### For Businesses
-1. Contact us for enterprise pricing
-2. We customize the app for your branding (optional)
-3. Deploy to company devices
-4. Manage all devices from one dashboard
-5. Get monthly compliance reports
+- Added `/about`, `/github`, and `/community` commands
+- Resolved `/setdevnumber` command reliability
+- Optimized lockscreen overlay performance (20% improvement)
+- Implemented optional anti-tampering protection
+- Fixed Android 14+ compatibility issues
 
-### For Developers / Researchers
-1. Get the **Source Code License**
-2. Full codebase + documentation
-3. White-label rights
-4. Commercial use allowed
-5. Technical support included
+### Version 2.1
 
----
+- Implemented lockscreen overlay with PIN protection
+- Added camera recording functionality (video and audio)
+- Improved callback handling reliability
+- Enhanced battery consumption optimization
 
-## 📊 Recent Updates (v2.2)
+### Version 2.0
 
-🎉 **Just Released!**
+- Firebase Realtime Database integration
+- Multi-device synchronization
+- Application blocking engine implementation
+- Usage tracking and analytics system
+- Web dashboard redesign
 
-- 🆕 **About Command** – `/about` shows developer info + social links
-- 🆕 **GitHub Link** – Direct link to GitHub repo (open-source components)
-- 🆕 **Community Command** – Join our Telegram group
-- 🔧 **Fixed** `/setdevnumber` – Now works reliably
-- ⚡ **Performance** – 20% faster lockscreen overlay
-- 🛡️ **Security** – Added anti-tamper protection (optional)
-- 📱 **Stability** – Fixed crashes on Android 14+
+### Version 1.5
 
-**[See Full Changelog](#-changelog-history)**
+- Keystroke monitoring system
+- Automated screenshot scheduling
+- Bedtime lock scheduler
+
+### Version 1.0
+
+- Initial release with core command set
+- SMS and call log reading
+- GPS location tracking
 
 ---
 
-## 🔐 Security & Privacy
+## Security and Privacy
 
-Your data is yours. Here's what we do:
+### Data Protection Measures
 
-✅ **No Cloud Storage** – Everything stays on your device  
-✅ **Encrypted Telegram** – All bot commands use TLS/SSL  
-✅ **Local Database** – Activity logs stored locally  
-✅ **No Analytics** – We don't track your usage  
-✅ **No Ads** – Zero advertising, zero trackers  
+- All data collection occurs locally on target device
+- No data transfer to external servers (except Telegram commands)
+- End-to-end encryption for Telegram communications
+- Local database encryption for sensitive information
+- No third-party data sharing
 
-> **We don't sell your data. Ever.** Privacy is a right, not a privilege.
+### User Responsibilities
 
----
+- Licensee maintains responsibility for data security
+- Automatic backups recommended
+- Credentials and authentication data must be protected
+- Compliance with applicable data protection regulations required
 
-## ⚡ Performance
+### Privacy Statement
 
-Built for speed and reliability:
-
-- 📱 **Low Battery Impact** – Uses <5% extra battery per day
-- 🚀 **Fast Commands** – 99% of commands execute in <2 seconds
-- 🔄 **Auto-Reconnect** – Automatically resumes if connection drops
-- 📡 **Multiple Networks** – Works over WiFi, 4G, 5G
-- 🛡️ **Crash-Proof** – Survives device restarts, app crashes
-
----
-
-## ❓ FAQ
-
-**Q: Is this legal?**  
-A: Yes, if you have permission from the device owner. Parents can monitor their children, employers can monitor company devices. Always follow local laws.
-
-**Q: What devices does it support?**  
-A: Android 9.0+. It works on phones, tablets, and Samsung devices with Knox.
-
-**Q: Does it work without internet?**  
-A: No, but commands queue until the device is online. You'll get notified when it connects.
-
-**Q: Can I use it on multiple devices?**  
-A: Yes! Get the Family Pack (5 devices) or Enterprise plan (10+).
-
-**Q: What if I forget the PIN?**  
-A: Send `/forceunlock` from Telegram (master only). The lockscreen will be removed.
-
-**Q: Does the target user know they're being monitored?**  
-A: The app runs silently. However, it requires Accessibility Service permission, which shows in Android settings.
-
-**Q: Can I uninstall it?**  
-A: If you set it as Device Owner, it can only be uninstalled by the owner (via Telegram `/removedevice`).
-
-**Q: How long does installation take?**  
-A: 5 minutes. Just install APK + grant permissions.
-
-**Q: Is there a trial?**  
-A: No trial, but if you have pre-purchase questions, contact us—we're happy to help.
-
-**Q: Can I get a refund?**  
-A: We offer refunds within 7 days if you're unsatisfied.
+We do not:
+- Collect usage analytics from target devices
+- Serve advertisements
+- Sell or share monitoring data
+- Track Telegram commands or device locations
+- Maintain logs beyond customer support requirements
 
 ---
 
-## 📸 Screenshots & Demo
+## Legal Compliance
 
-Coming soon! We're working on a demo video.
+ParentControl is designed for lawful use only, including:
 
----
+- Parents monitoring devices assigned to their children
+- Employers monitoring company-owned devices with employee consent
+- Device owners monitoring their own devices
+- Authorized personnel in legal recovery scenarios
 
-## 📦 What You Get (After Purchase)
+Licensee is solely responsible for:
 
-1. 📲 **Signed APK File** – Ready to install
-2. 📖 **Setup Guide** – Step-by-step instructions  
-3. 🤖 **Telegram Bot Token** – Pre-configured for you
-4. 🌐 **Web Dashboard** – Instant access
-5. 📧 **Email Support** – Response within 24 hours
-6. 🔄 **Lifetime Updates** – New features, bug fixes
+- Obtaining proper authorization from monitored device owners
+- Complying with surveillance and privacy laws in their jurisdiction
+- Understanding and adhering to local regulations
 
----
-
-## 📞 Contact & Support
-
-### Get in Touch
-| Channel | Link |
-|---------|------|
-| 📧 **Email** | admofficialhq@gmail.com |
-| 💬 **Telegram** | [@Iam_Bravo1](https://t.me/Iam_Bravo1) |
-| 👥 **Community** | [Join Group](https://t.me/+zTvA2cigWowyMGQ0) |
-| 🐙 **GitHub** | [ADM / iBT Labs](https://github.com) |
-
-### Support Hours
-🕐 **Monday - Friday:** 10 AM - 8 PM (EAT)  
-🕐 **Weekend:** 2 PM - 6 PM (EAT)  
-⏰ **Response time:** Usually within 4 hours
+**Prohibited uses** include stalking, hacking, unauthorized surveillance, and any activity violating applicable law.
 
 ---
 
-## 🔗 Changelog History
+## Support and Service
 
-### v2.2 (June 19, 2026) — **Current**
-- 🆕 `/about`, `/github`, `/community` commands
-- 🔧 Fixed `/setdevnumber` reliability issues
-- ⚡ 20% faster lockscreen overlay
-- 🛡️ Optional anti-tamper protection
-- 📱 Android 14 stability fixes
+### Support Availability
 
-### v2.1 (June 15, 2026)
-- 🆕 Lockscreen with PIN + developer contact
-- 🆕 Camera recording (audio + video)
-- 🔧 Improved callback handling
-- ⚡ Better battery optimization
+| Channel | Contact | Response Time |
+|---|---|---|
+| Email | admofficialhq@gmail.com | 24 hours |
+| Telegram | @Iam_Bravo1 | 4 hours average |
 
-### v2.0 (June 10, 2026)
-- 🆕 Firebase multi-device sync
-- 🆕 App blocking engine
-- 📊 Usage tracking & analytics
-- 🎨 UI redesign
+**Operating Hours:** Monday-Friday 10 AM - 8 PM EAT, Saturday 2 PM - 6 PM EAT
 
-### v1.5 (June 1, 2026)
-- ⌨️ Keylogger system
-- 📸 Auto-screenshot scheduler
-- 🛏️ Bedtime lock feature
+### Support Coverage
 
-### v1.0 (May 20, 2026)
-- 🎉 First release
-- Basic Telegram commands
-- SMS/call reader
-- Location tracking
+**Included support provides:**
+- Installation and configuration assistance
+- Technical troubleshooting and bug fixes
+- Software updates and patches
+- Command and feature guidance
+
+**Not included:**
+- Custom application development
+- Legal or regulatory consultation
+- Device data recovery services
+
+### Support Duration
+
+- 12 months complimentary with license purchase
+- Extended support available for enterprise customers
+- Post-support updates available for additional fee
 
 ---
 
-## 🎨 Made By
+## Purchase and Licensing
 
-<div align="center">
+To acquire ParentControl:
 
-**Ibrahim** | Developer & Creator  
-**iBT Labs / ADM** | Company  
-**Kampala, Uganda** | Based In
+1. Contact the licensing department with your requirements
+2. Specify device count and license type
+3. Receive invoice and payment instructions
+4. Complete payment through preferred method
+5. Receive APK, credentials, and setup documentation
 
-Made with ❤️ for responsible monitoring.
+### Payment Methods
 
-</div>
+- Wire transfer (international and Uganda)
+- Mobile money (MTN, Airtel - Uganda)
+- Cryptocurrency (BTC, USDT)
+- PayPal (international)
 
----
+### Refund Policy
 
-## ⚖️ Legal & Disclaimer
-
-**ParentControl is for legal use only.**
-
-You are responsible for complying with local and international laws regarding surveillance, privacy, and device monitoring. Unauthorized use is illegal.
-
-- ✅ **Allowed:** Parents monitoring kids, employers monitoring company devices
-- ❌ **Not Allowed:** Stalking, hacking, privacy invasion without consent
-
-**We are not liable for misuse of this software.**
+- Full refund within 7 days of purchase
+- After 7 days, no refunds issued
+- Support and updates remain available after refund period
 
 ---
 
-## 🙏 Support Us
+## Contact Information
 
-If you love ParentControl, help us grow:
-
-⭐ **Star on GitHub** – Spread the word  
-💬 **Join Community** – Share feedback & ideas  
-📣 **Tell Friends** – Word-of-mouth is our best marketing  
-🐛 **Report Bugs** – Help us make it better  
-
----
-
-<div align="center">
-
-### Ready to Get Started?
-
-**[📧 Contact Us Now](mailto:admofficialhq@gmail.com)** • **[💬 Telegram](https://t.me/Iam_Bravo1)** • **[👥 Community](https://t.me/+zTvA2cigWowyMGQ0)**
+| Information | Details |
+|---|---|
+| Developer | Ibrahim |
+| Company | iBT Labs / ADM |
+| Location | Kampala, Uganda |
+| Email | admofficialhq@gmail.com |
+| Telegram | @Iam_Bravo1 |
+| Community | https://t.me/+zTvA2cigWowyMGQ0 |
+| GitHub | https://github.com/InsideADM |
 
 ---
 
-<img src="https://img.shields.io/badge/Made%20with%20❤️%20in%20Kampala-FF6B35?style=flat-square" alt="Made in Kampala" />
+## Legal Notice
 
-**ParentControl v2.2** © 2026 iBT Labs / ADM
+ParentControl is provided "as is" without warranty of any kind. Licensor assumes no liability for damages, data loss, or legal consequences resulting from use of this software.
 
-</div>
+By installing or using ParentControl, you agree to comply with all applicable laws and accept full responsibility for your use of this software.
+
+For complete license terms, see [LICENSE.md](LICENSE.md)
+
+---
+
+Copyright © 2026 ADM. All rights reserved.
