@@ -267,7 +267,6 @@ Licensee is solely responsible for:
 | Channel | Contact | Response Time |
 |---|---|---|
 | Email | admofficialhq@gmail.com | 24 hours |
-| Telegram | @Iam_Bravo1 | 4 hours average |
 
 **Operating Hours:** Monday-Friday 10 AM - 8 PM EAT, Saturday 2 PM - 6 PM EAT
 
