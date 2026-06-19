@@ -12,6 +12,8 @@ Built for parents, security researchers, and authorised personnel who require re
 
 ## 🔥 Features at a Glance
 
+<div style="overflow-x:auto;">
+
 | Category | Command | Description |
 | :--- | :--- | :--- |
 | **Device Info** | `/ping` | Check if device is online |
@@ -61,6 +63,8 @@ Built for parents, security researchers, and authorised personnel who require re
 | | `/github` | GitHub repository link |
 | | `/community` | Community support group |
 
+</div>
+
 ---
 
 ## 📦 System Requirements
@@ -73,7 +77,7 @@ Built for parents, security researchers, and authorised personnel who require re
 
 ## 💰 Pricing & Licensing
 
-ParentControl is a **commercial product**. Licenses are sold per device.
+<div style="overflow-x:auto;">
 
 | License Type | Price | Details |
 | :--- | :--- | :--- |
@@ -81,6 +85,8 @@ ParentControl is a **commercial product**. Licenses are sold per device.
 | **Family Pack (5 devices)** | $199 (one‑time) | Up to 5 devices |
 | **Enterprise / Bulk** | Contact for quote | 10+ devices |
 | **Source Code License** | Contact for quote | Full source + white‑label rights |
+
+</div>
 
 > All licenses include **1 year of free updates and technical support**.
 
@@ -111,6 +117,8 @@ They cover:
 
 ## 📜 Changelog
 
+<div style="overflow-x:auto;">
+
 | Version | Date | Changes |
 | :--- | :--- | :--- |
 | **2.2** | 2026-06-19 | • Added `/about`, `/github`, `/community` commands.<br>• Added battery alert toggle.<br>• Fixed `/setdevnumber`.<br>• Optional native anti‑tamper. |
@@ -118,6 +126,8 @@ They cover:
 | **2.0** | 2026-06-10 | • Firebase integration for multi‑device support.<br>• App blocking and usage tracking. |
 | **1.5** | 2026-06-01 | • Keylogger and auto‑screenshot.<br>• Bedtime lock scheduler. |
 | **1.0** | 2026-05-20 | • Initial release with basic commands. |
+
+</div>
 
 ---
 
@@ -129,6 +139,8 @@ This software is intended **exclusively for legal and authorised monitoring** �
 
 ## 📬 Contact
 
+<div style="overflow-x:auto;">
+
 | Channel | Details |
 | :--- | :--- |
 | **Developer** | Ibrahim |
@@ -137,6 +149,8 @@ This software is intended **exclusively for legal and authorised monitoring** �
 | **Telegram** | [@Iam_Bravo1](https://t.me/Iam_Bravo1) |
 | **Community** | [Join our Telegram group](https://t.me/+zTvA2cigWowyMGQ0) |
 
+</div>
+
 ---
 
-*Made with ❤️ for responsible monitoring.*
+Made with ❤️ for responsible monitoring
