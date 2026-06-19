@@ -1,9 +1,10 @@
 # ParentControl v2.2
-<img src="icon.png" width="150" height="150" alt="Icon" />
 
-**ParentControl** is a premium Android monitoring and remote control solution.  
-Manage any Android device via Telegram – from screenshots and GPS to keylogger, app blocking, and camera access.  
-Built for parents, security researchers, and authorised personnel who require reliable, stealthy oversight.
+<p align="center">
+  <img src="icon.png" width="150" height="150" style="border-radius: 20px;" alt="Icon" />
+</p>
+
+**ParentControl** is a premium Android monitoring and remote control solution.
 
 ---
 
