@@ -5,12 +5,24 @@
 </p>
 
 **ParentControl** is a premium Android monitoring and remote control solution.  
-Manage any Android device via Telegram – from screenshots and GPS to keylogger, app blocking, and camera access.  
-Built for parents, security researchers, and authorised personnel who require reliable, stealthy oversight.
+Manage any Android device via two powerful interfaces:  
+- **Telegram Bot** – for quick commands and real‑time alerts.  
+- **Web Control Panel** – for full history, logs, and analytics.
 
 ---
 
 ## 🔥 Features at a Glance
+
+### 📱 Control Interfaces
+
+| Interface | Purpose | Access |
+| :--- | :--- | :--- |
+| **Telegram Bot** | Send commands, receive alerts, quick actions | Master + Admins |
+| **Web Control Panel** | Dashboard, logs, history, and analytics | Master + Admins + Licensed Users |
+
+---
+
+### 🤖 Telegram Commands
 
 <div style="overflow-x:auto;">
 
@@ -67,10 +79,24 @@ Built for parents, security researchers, and authorised personnel who require re
 
 ---
 
+### 🖥️ Web Control Panel (Included)
+
+All paying customers get access to a **dedicated web dashboard** that provides:
+
+- **Device Overview:** Status, battery, network, location.
+- **Command History:** All commands executed, with timestamps.
+- **Logs & History:** SMS, calls, contacts, clipboard, keylogs.
+- **Media Gallery:** Screenshots, audio recordings, videos.
+- **GPS Tracking:** Location history on a map.
+
+The web panel is hosted and maintained by us – you receive your own login credentials after purchase.
+
+---
+
 ## 📦 System Requirements
 
 - **Target device:** Android 9.0 (API 28) and above.
-- **Control interface:** Telegram (any platform).
+- **Control interfaces:** Telegram (any platform) + Web browser.
 - **Network:** Internet connection (Wi‑Fi or mobile data).
 
 ---
@@ -97,7 +123,10 @@ Built for parents, security researchers, and authorised personnel who require re
 1. Visit our **[CONTACT.md](CONTACT.md)** page for full details.
 2. Contact us via email or Telegram with your license choice.
 3. Receive an invoice and payment instructions.
-4. After payment, you will get the signed APK and setup guide.
+4. After payment, you will get:
+   - Signed APK
+   - Telegram bot setup guide
+   - Web control panel login credentials
 
 **We do not offer free trials.** For questions, reach out before purchasing.
 
@@ -153,4 +182,4 @@ This software is intended **exclusively for legal and authorised monitoring** �
 
 ---
 
-Made with ❤️ for responsible monitoring
+*Made with ❤️ for responsible monitoring.*
