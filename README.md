@@ -25,9 +25,9 @@
 
 ## Overview
 
-ParentControl is a professional device monitoring and management platform designed for parents, organizations, and authorized personnel who need to oversee Android devices. The solution provides comprehensive real-time visibility through two integrated control interfaces: a Telegram-based command system and a web-based management dashboard.
+ParentControl is a professional device monitoring and management platform designed for parents, organizations, and authorized personnel who need to oversee Android devices. The solution provides real-time visibility through two integrated control interfaces: a Telegram-based command system and a web-based management dashboard.
 
-Whether you are a parent monitoring your child's device, an organization managing employee devices, or an IT administrator overseeing multiple devices, ParentControl delivers the monitoring capabilities you need with a straightforward, non-intrusive architecture.
+Are you a parent monitoring your child's device, an organization managing employee devices, or an IT administrator overseeing multiple devices, ParentControl delivers the monitoring capabilities you need with a straightforward, non-intrusive architecture.
 
 ---
 
@@ -323,9 +323,7 @@ To acquire ParentControl:
 | Company | iBT Labs / ADM |
 | Location | Kampala, Uganda |
 | Email | admofficialhq@gmail.com |
-| Telegram | @Iam_Bravo1 |
-| Community | https://t.me/+zTvA2cigWowyMGQ0 |
-| GitHub | https://github.com/InsideADM |
+| Telegram | t.me/Iam_Bravo1 |
 
 ---
 
@@ -335,7 +333,7 @@ ParentControl is provided "as is" without warranty of any kind. Licensor assumes
 
 By installing or using ParentControl, you agree to comply with all applicable laws and accept full responsibility for your use of this software.
 
-For complete license terms, see [LICENSE.md](LICENSE.md)
+For complete license terms, see [LICENSE](LICENSE)
 
 ---
 
