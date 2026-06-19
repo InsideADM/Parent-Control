@@ -110,38 +110,10 @@ Version Date Changes
 
 This software is intended exclusively for legal and authorised monitoring – e.g., parental control, employee supervision with consent, or device recovery. The user assumes full responsibility for compliance with applicable laws. Misuse is strictly prohibited and may result in legal action.
 
----
+## 📬 Purchase & Contact
 
-📬 Contact & Purchase
+For pricing, payment methods, and how to buy, please see **[CONTACT.md](CONTACT.md)**.
 
-· Developer: Ibrahim
-· Company: iBT Labs / ADM
-· Email: admofficialhq@gmail.com
-· Telegram: @Iam_Bravo1
-· Community: Join our Telegram group for support and updates.
-
----
-
-Made with ❤️ for responsible monitoring.
-
-# Contact & Purchase
-
-## How to Buy
-- **Single‑Device License:** $XX (one‑time)
-- **Family Pack (5 devices):** $XX (one‑time)
-- **Enterprise / Bulk:** Contact for custom pricing
-- **Source Code License:** Contact for custom pricing
-
-## Payment Methods
-- Bank Transfer
-- Mobile Money (Uganda)
-- Cryptocurrency (BTC, USDT)
-
-## Contact
+For quick inquiries, reach out via:
 - **Email:** admofficialhq@gmail.com
 - **Telegram:** [@Iam_Bravo1](https://t.me/Iam_Bravo1)
-- **Community:** [Join our Telegram group](https://t.me/+zTvA2cigWowyMGQ0)
-
----
-
-*All licenses are perpetual and include 1 year of updates and support.*
