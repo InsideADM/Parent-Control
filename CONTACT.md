@@ -11,7 +11,7 @@ ParentControl is a commercial product. Licenses are sold on a per‑device basis
 | **Enterprise / Bulk** | Contact for quote | 10+ devices |
 | **Source Code License** | Contact for quote | Full source code + white‑label rights |
 
-> All licenses are **perpetual** and include **1 year of free updates and technical support**.
+All licenses are **perpetual** and include **1 year of free updates and technical support**.
 
 ---
 
