@@ -32,7 +32,7 @@ The web control panel provides:
 - SMS and call log archives
 - Keylog and clipboard history
 
-> **Note:** The web control panel is hosted by us. You receive your own login credentials after purchase. No additional setup required.
+**Note:** The web control panel is hosted by us. You receive your own login credentials after purchase. No additional setup required.
 
 ---
 
