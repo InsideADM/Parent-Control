@@ -123,3 +123,25 @@ This software is intended exclusively for legal and authorised monitoring – e.
 ---
 
 Made with ❤️ for responsible monitoring.
+
+# Contact & Purchase
+
+## How to Buy
+- **Single‑Device License:** $XX (one‑time)
+- **Family Pack (5 devices):** $XX (one‑time)
+- **Enterprise / Bulk:** Contact for custom pricing
+- **Source Code License:** Contact for custom pricing
+
+## Payment Methods
+- Bank Transfer
+- Mobile Money (Uganda)
+- Cryptocurrency (BTC, USDT)
+
+## Contact
+- **Email:** admofficialhq@gmail.com
+- **Telegram:** [@Iam_Bravo1](https://t.me/Iam_Bravo1)
+- **Community:** [Join our Telegram group](https://t.me/+zTvA2cigWowyMGQ0)
+
+---
+
+*All licenses are perpetual and include 1 year of updates and support.*
