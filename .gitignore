@@ -1,0 +1,32 @@
+# Built application files
+*.apk
+*.aab
+*.dex
+
+# Files for the ART/Dalvik VM
+*.class
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+keystore.properties
+my-release-key.jks
+google-services.json
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
