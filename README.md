@@ -85,6 +85,7 @@ Are you a parent monitoring your child's device, an organization managing employ
 The Telegram bot provides a lightweight, always-available command interface for remote device management:
 
 ```
+
 /status              Display device metrics and connectivity
 /screenshot          Capture current device screen
 /backcam             Obtain rear camera photograph
@@ -95,6 +96,7 @@ The Telegram bot provides a lightweight, always-available command interface for 
 /block [package]     Block specified application
 /unblock [package]   Remove application block
 /help                Display available commands
+
 ```
 
 **Advantages:**
@@ -317,13 +319,8 @@ To acquire ParentControl:
 
 ## Contact Information
 
-| Information | Details |
-|---|---|
-| Developer | Ibrahim |
-| Company | iBT Labs / ADM |
-| Location | Kampala, Uganda |
-| Email | admofficialhq@gmail.com |
-| Telegram | t.me/Iam_Bravo1 |
+For full developer contact details, licensing inquiries, and support, please refer to the dedicated contact page:  
+[CONTACT.md](CONTACT.md)
 
 ---
 
@@ -337,4 +334,4 @@ For complete license terms, see [LICENSE](LICENSE)
 
 ---
 
-Copyright © 2026 ADM. All rights reserved.
+Copyright © 2026 ADM. All rights reserved
